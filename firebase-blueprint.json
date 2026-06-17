@@ -1,0 +1,15 @@
+{
+  "collections": [
+    {
+      "collectionId": "users",
+      "description": "User profiles",
+      "fields": [
+        { "name": "uid", "type": "string", "description": "Auth UUID" },
+        { "name": "email", "type": "string", "description": "User email" },
+        { "name": "fullName", "type": "string", "description": "Full name" },
+        { "name": "nickname", "type": "string", "description": "Nickname used in system" },
+        { "name": "createdAt", "type": "timestamp", "description": "Creation timestamp" }
+      ]
+    }
+  ]
+}
